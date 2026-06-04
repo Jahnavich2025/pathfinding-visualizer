@@ -1,0 +1,19 @@
+/* src/components/Grid.css */
+
+.grid-wrapper {
+  overflow-x: auto;
+  padding: 8px 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.grid-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  cursor: crosshair;
+  background: var(--color-grid-bg);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.4), inset 0 0 40px rgba(0, 0, 0, 0.2);
+}
